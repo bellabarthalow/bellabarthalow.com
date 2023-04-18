@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome to my website all about me!</title>
+	<style>
+		/* ID Selector */
+		#header {
+			background-color: #333;
+			color: white;
+			text-align: center;
+			padding: 20px;
+		}
+
+		/* Class Selector */
+		.content {
+			margin: 20px;
+			padding: 10px;
+			border: 1px solid black;
+		}
+
+		/* Align Elements with Float */
+		.image {
+			float: left;
+			margin-right: 20px;
+		}
+
+		/* Fixed Positioning */
+		#sidebar {
+			position: fixed;
+			top: 0;
+			right: 0;
+			width: 200px;
+			background-color: #f1f1f1;
+			padding: 20px;
+		}
+
+		/* Relative Positioning */
+		.title {
+			position: relative;
+			top: 20px;
+			left: 10px;
+			font-size: 24px;
+		}
+
+		/* Absolute Positioning */
+		#footer {
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			background-color: #333;
+			color: white;
+			text-align: center;
+			padding: 20px;
+		}
+
+		/* Links */
+		a:link {
+			color: blue;
+		}
+
+		a:hover {
+			color: red;
+		}
+
+		a:active {
+			color: green;
+		}
+
+		/* Background and Centering for Main Section */
+		main {
+			background-size: 50px 50px;
+			background-position: center;
+			height: 50vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		/* Image Border and Caption */
+		figure {
+			background-color: rgba(255, 255, 255, 0.8);
+			padding: 20px;
+			border-radius: 10px;
+		}
+
+		figcaption {
+			text-align: center;
+			font-style: italic;
+		}
+		.navbar {
+  			display: flex;
+  			justify-content: space-between;
+  			align-items: center;
+ 			background-color: #333;
+  			color: #fff;
+  			padding: 10px 20px;
+			}
+
+		.logo {
+  			font-size: 1.5rem;
+  			font-weight: bold;
+			}
+
+		.menu {
+ 			display: none;
+  			flex-direction: column;
+  			margin: 0;
+  			padding: 0;
+			}
+
+		.menu li {
+  			margin: 0;
+  			padding: 10px 0;
+  			border-top: 1px solid #fff;
+			}
+
+		.menu li:first-child {
+  			border-top: none;
+			}
+
+		.menu a {
+  			color: #fff;
+  			text-decoration: none;
+  			font-size: 1.2rem;
+			}
+
+		.menu-icon {
+  			cursor: pointer;
+			}
+
+		@media screen and (max-width: 768px) {
+  		.menu {
+   			display: flex;
+    			flex-direction: column;
+    			position: absolute;
+    			top: 70px;
+    			left: 0;
+    			width: 100%;
+    			background-color: #333;
+    			z-index: 1;
+ 			}
+
+  		.menu li {
+    			margin: 0;
+    			padding: 10px;
+    			border-top: none;
+  			}
+
+  		.menu-icon {
+    			display: block;
+  			}
+
+  		.navbar {
+    			flex-direction: column;
+    			align-items: flex-start;
+  			}
+
+  		.logo {
+    			margin-bottom: 10px;
+  			}
+		}
+	
+		input[type="text"] {
+ 			 padding: 10px;
+  			border: 1px solid #ccc;
+  			border-radius: 4px;
+  			box-sizing: border-box;
+  			font-size: 16px;
+			}
+		
+	</style>
+</head>
+<body>
+	<!-- Semantic Elements -->
+	<header id="header">
+		<h1>My Website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+	
+
+		<section class="content">
+			<!-- Special Characters -->
+			<h2> Bella Barthalow</h2>
+			<p>Welcome to my website, this is everything that I have learned so far in the CITC1300 class!</p>
+			<!-- Div Elements -->
+			<div class="image">
+				<img src="tiger.png" alt="Example Image" width="100">
+			
+			</div>
+			<div class="text">
+				<!-- Set Element Width and Borders -->
+				<h3 class="title">About me</h3>
+				<p>I was born in September of 1999 in Germantown, TN. I grew up there and had an attachment to technology at a very young age. I would tinker around with just about everything computer or video game related. I then started growing a passion for technology right around the age of 12, and decided to pursue a career in the technology industry.
+			           I then sought out a degree at The University of Memphis but dropped out in 2018. I decided that I wanted to figure out what specific field I wanted to go into since the market was vast. After 3 years, I finally picked my degree back up in 2022 and decided to finish what I started in Memphis. Here I am, after those 3 years working in the IT industry, and I know exactly what I want to do; Cybersecurity. </p>
+			</div>
+		</section>
+
+		<!-- Fixed Positioning -->
+		<aside id="sidebar">
+			<h3>My Sidebar</h3>
+			<p>Here's a little bit about myself, hope you enjoy!.</p>
+		</aside>
+		
+		
+main {
+		background-size: 50px 50px;
+  		background-position: center;
+  		height: 10vh;
+ 		display: flex;
+  		justify-content: center;
+  		align-items: center;
+		}
+
+	figure {
+ 		 background-color: rgba(255, 255, 255, 0.8);
+ 		 padding: 20px;
+ 		 border-radius: 10px;
+		}
+
+	figcaption {
+ 		 text-align: center;
+  		font-style: italic;
+		}
+	</main>
+
+	@media only screen and (max-width: 767px) {
+ 		 /* Styles for devices with a maximum width of 767px (e.g. smartphones) */
+ 	 body {
+    	font-size: 16px;
+ 	 		}
+	}
+	
+	@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  		/* Styles for devices with a width of at least 768px and a maximum width of 1023px (e.g. tablets) */
+  	body {
+    	font-size: 18px;
+  			}
+	}
+
+	@media only screen and (min-width: 1024px) {
+  		/* Styles for devices with a minimum width of 1024px (e.g. desktops) */
+  	body {
+    	font-size: 20px;
+  			}
+	}
+	
+	@media only screen and (min-width: 1200px) {
+  		/* Styles for screens wider than 1200px */
+  	body {
+    	font-size: 18px;
+  			}
+  	main {
+    	max-width: 1200px;
+    	margin: 0 auto;
+    	display: flex;
+    	flex-wrap: wrap;
+    	justify-content: space-between;
+  			}
+  	.content {
+    	width: 65%;
+  			}
+  	#sidebar {
+    	width: 30%;
+  			}
+	}
+	@media screen and (min-width: 768px) {
+  		/* styles for tablets and larger screens */
+  	.main-content {
+    		width: 70%;
+    		float: left;
+  			}
+  	.sidebar {
+   		 width: 30%;
+    		float: right;
+  			}
+		}
+
+	@media screen and (min-width: 1200px) {
+  		/* styles for large screens */
+  	.main-content {
+    		width: 60%;
+  		}
+  	.sidebar {
+    		width: 20%;
+  		}
+  	.advertisement {
+   		width: 20%;
+  		}
+	}
+	/* hide the default checkbox */
+input[type="checkbox"] {
+  display: none;
+}
+
+/* style the custom checkbox */
+label {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+label:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #ccc;
+}
+
+input[type="checkbox"]:checked + label:before {
+  background: #2196F3;
+}
+
+
+	</body>
+</html>

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome to my website all about me!</title>
+   <div>
+	<a href="https://www.facebook.com/bella.barthalow/" target="_blank">My Facebook</a>
+	<a href="#section1">anchor link</a>
+  </div>
+  <div class="menu-icon">
+    	<i class="fa fa-bars"></i>
+  </div>
+  	<ul class="menu">
+    		<li><a href="#">Home</a></li>
+    		<li><a href="#">About</a></li>
+   	</ul>
+	<style>
+		/* ID Selector */
+		#header {
+			background-color: #333;
+			color: white;
+			text-align: center;
+			padding: 20px;
+		}
+
+		/* Class Selector */
+		.content {
+			margin: 20px;
+			padding: 10px;
+			border: 1px solid black;
+		}
+
+		/* Align Elements with Float */
+		.image {
+			float: left;
+			margin-right: 20px;
+		}
+
+		/* Fixed Positioning */
+		#sidebar {
+			position: fixed;
+			top: 0;
+			right: 0;
+			width: 200px;
+			background-color: #f1f1f1;
+			padding: 20px;
+		}
+
+		/* Relative Positioning */
+		.title {
+			position: relative;
+			top: 20px;
+			left: 10px;
+			font-size: 24px;
+		}
+
+		/* Absolute Positioning */
+		#footer {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			background-color: #333;
+			color: white;
+			text-align: center;
+			padding: 20px;
+		}
+	</style>
+</head>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Table Example</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+
+		table, th, td {
+			border: 1px solid black;
+		}
+
+		th, td {
+			padding: 10px;
+			text-align: center;
+		}
+
+		th {
+			background-color: #333;
+			color: white;
+		}
+
+		td[colspan="2"] {
+			background-color: #f1f1f1;
+			font-weight: bold;
+		}
+
+		td[rowspan="2"] {
+			background-color: #ccc;
+		}
+	</style>
+</head>
+<body>
+	<!-- Semantic Elements -->
+	
+	<header id="header">
+  		<h1 id="main-heading">My Website</h1>
+  			<nav>
+    			<ul>
+      			<li><a href="#main-heading">Home</a></li>
+      			<li><a href="#about">About</a></li>
+      			<li><a href="#contact">Contact</a></li>
+    			</ul>
+  		</nav>
+	</header>
+	<main>
+		<table>
+			<thead>
+				<tr>
+					<th>Favorite Artists</th>
+					<th>Favorite Songs</th>
+					<th>Favorite Albums</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="1">Sullivan King</td>
+					<td>Dark Love</td>
+					<td>LOUD</td>
+				</tr>
+				<tr>
+					<td>Illenium</td>
+					<td>Feel Something</td>
+					<td>Ashes</td>
+				</tr>
+			</tbody>
+		</table>
+	</main>
+<main>
+	<section class="content">
+    		<!-- Special Characters -->
+    			<h2> Bella Barthalow</h2>
+   		 <p>Welcome to my website, this is everything that I have learned so far in the CITC1300 class!</p>
+    
+		<!-- Div Elements -->
+    			<div class="image">
+        		<img src="tiger.png" alt="Example Image" width="100">
+    			</div>
+    			<div class="text">
+        	<!-- Set Element Width and Borders -->
+        		<h3 class="title">About me</h3>
+        			<p>I was born in September of 1999 in Germantown, TN. I grew up there and had an attachment to technology at a very young age. I would tinker around with just about everything computer or video game related. I then started growing a passion for technology right around the age of 12, and decided to pursue a career in the technology industry.
+        			I then sought out a degree at The University of Memphis but dropped out in 2018. I decided that I wanted to figure out what specific field I wanted to go into since the market was vast. After 3 years, I finally picked my degree back up in 2022 and decided to finish what I started in Memphis. Here I am, after those 3 years working in the IT industry, and I know exactly what I want to do; Cybersecurity. </p>
+        	<!-- Ordered List -->
+        		<h4>My Top 5 Favorite Foods</h4>
+       			<ol>
+            			<li>Chow Mein</li>
+            			<li>Pizza</li>
+            			<li>Burgers</li>
+            			<li>Crab Rangoons</li>
+            			<li>Steak</li>
+        		</ol>
+    		</div>
+		<input type="checkbox" id="myCheckbox" name="myCheckbox">
+		<label for="myCheckbox">Are any of your favorite foods listed?</label>
+
+	</section>
+
+
+		<!-- Fixed Positioning -->
+		<aside id="sidebar">
+			<h3>Independent project</h3>
+			<p>Here's a little bit about myself, hope you enjoy!.</p>
+			<ul>
+				<li>Favorite color: Green</li>
+				<li>Favorite food: Chow Mein</li>
+				<li>Favorite show: Fruits Basket</li>
+			</ul>
+		</aside>
+		<section class="content">
+			<h3>My Hobbies</h3>
+			<ul>
+				<li>Playing video games</li>
+				<li>Going to car shows</li>
+				<li>Working on my car</li>
+				<li>Making music (DJ)</li>
+			</ul>
+		</section>
+	<h1>Here is my current gaming/work setup at home!</h1>
+			<div class="video-container">
+		<video controls poster="poster.jpg">
+			<source src="video.mp4" type="video/mp4">
+			<source src="gaming.mp4" type="video/webm">
+		</video>
+		</div>
+	<body>
+	
+	<h1>Here is a song that I made called "By my side", hope you enjoy :)</h1>
+	<audio controls>
+		<source src="bymyside.mp3" type="audio/mpeg">
+		<source src="audio.ogg" type="audio/ogg">
+		
+	</audio>
+	</body>
+</main>
+			
+	<main style="background-image: url('background.jpg');">
+  			<figure>
+    				<img src="me.jpg" alt="Example Image" width="25%" height="25%">
+    			<figcaption>Here is a picture of myself.</figcaption>
+  			</figure>
+		</main>
+
+<style>
+		/* Generated Content */
+		#myDiv::before {
+			content: "Any questions?";
+			color: #fff;
+			background-color: #000;
+			padding: 1px;
+			border-radius: 5px;
+		}
+		
+		/* Visual Form Feedback */
+		input:focus {
+			border: 2px solid blue;
+			box-shadow: 0px 0px 5px 0px blue;
+		}
+		
+		/* Gradient */
+		body {
+			background: linear-gradient(to bottom, #00ffff, #3366ff);
+		}
+		
+		/* CSS Circle Shape */
+		.circle {
+			width: 100px;
+			height: 100px;
+			background-color: #ff0000;
+			border-radius: 50%;
+		}
+		
+		/* Styles based on Feature Detection */
+		@supports (display: grid) {
+			.container {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				grid-gap: 20px;
+			}
+		}
+		
+		/* Transform */
+		.box {
+			width: 100px;
+			height: 100px;
+			background-color: #00ff00;
+			transform: rotate(45deg);
+		}
+		
+		/* Transition */
+		.box:hover {
+			background-color: #ff00ff;
+			transition: background-color 0.5s ease;
+		}
+		
+		/* Animation */
+		@keyframes move {
+			from {left: 0px;}
+			to {left: 200px;}
+		}
+		.animated {
+			position: relative;
+			animation: move 2s infinite alternate;
+		}
+	</style>
+</head>
+<body>
+	<div id="myDiv"></div>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name"><br><br>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"><br><br>
+		<input type="submit" value="Submit">
+	</form>
+	<div class="circle"></div>
+	<div class="box"></div>
+	<div class="animated">I've learned so much in this class!</div>
+</body>
+
+<style>
+		.video-container {
+			position: relative;
+			padding-bottom: 25%;
+			height: 0;
+			overflow: hidden;
+		}
+		.video-container video {
+			position: absolute;
+			width: 100%;
+			height: auto;
+			max-width: 640px;
+			max-height: 360px;
+		}
+	</style>
+</head>
+</body>
+<style>
+      /* CSS for our button */
+      button {
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">Thanks for sticking around!</h1>
+    <p id="paragraph">This semester has been challenging, but fun all the less!</p>
+    <button id="btn">Click me!</button>
+
+  </body>
+
+</html>

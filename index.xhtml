@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Welcome to my website all about me!</title>
+	<style type="text/css">
+		/* ID Selector */
+		#header {
+			background-color: #333;
+			color: white;
+			text-align: center;
+			padding: 20px;
+		}
+
+		/* Class Selector */
+		.content {
+			margin: 20px;
+			padding: 10px;
+			border: 1px solid black;
+		}
+
+		/* Align Elements with Float */
+		.image {
+			float: left;
+			margin-right: 20px;
+		}
+
+		/* Fixed Positioning */
+		#sidebar {
+			position: fixed;
+			top: 0;
+			right: 0;
+			width: 200px;
+			background-color: #f1f1f1;
+			padding: 20px;
+		}
+
+		/* Relative Positioning */
+		.title {
+			position: relative;
+			top: 20px;
+			left: 10px;
+			font-size: 24px;
+		}
+
+		/* Absolute Positioning */
+		#footer {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			background-color: #333;
+			color: white;
+			text-align: center;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	<!-- Semantic Elements -->
+	<header id="header">
+		<h1>My Website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="content">
+			<!-- Special Characters -->
+			<h2> Bella Barthalow</h2>
+			<p>Welcome to my website, this is everything that I have learned so far in the CITC1300 class!</p>
+			<!-- Div Elements -->
+			<div class="image">
+				<img src="tiger.png" alt="Example Image" width="100" />
+			</div>
+			<div class="text">
+				<!-- Set Element Width and Borders -->
+				<h3 class="title">About me</h3>
+				<p>I was born in September of 1999 in Germantown, TN. I grew up there and had an attachment to technology at a very young age. I would tinker around with just about everything computer or video game related. I then started growing a passion for technology right around the age of 12, and decided to pursue a career in the technology industry.
+			           I then sought out a degree at The University of Memphis but dropped out in 2018. I decided that I wanted to figure out what specific field I wanted to go into since the market was vast. After 3 years, I finally picked my degree back up in 2022 and decided to finish what I started in Memphis. Here I am, after those 3 years working in the IT 
+				   industry, and I know exactly what I want to do; Cybersecurity. </p>
+				</div>
+				</section>
+
+			<!--> Fixed position -->
+				<aside id="sidebar">
+			<h3>My Sidebar</h3>
+			<p>Here's a little bit about myself, hope you enjoy!.</p>
+		</aside>
+	</main>
+
+	<!-- Absolute Positioning -->
+	<footer id="footer">
+		<p>&copy; 2023 CITC1300 Bella Barthalow.</p>
+	</footer>
+</body>
+</html>
+			
